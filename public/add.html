@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/add/css">
+</head>
+<body>
+  <section class="travel-outside">
+    <div class="logo">
+      <img class="headerImg"
+        src="https://t4.ftcdn.net/jpg/01/10/24/63/360_F_110246303_oXrSTJJtcTYUkoHzJuRZJ4aSBqXINGd1.jpg" />
+      <div class="nameLogo">Travel Hypothetical</div>
+    </div>
+    <div>
+      <h4>Which country place did you go ?</h4>
+    </div>
+    <form>
+      <label for="name-input">City name:</label>
+      <input type="text" id="name-input" name="name-input"><br><br>
+      <label for="country-select"> Select the country:</label>
+      <select id="country-select"></select>
+      <div>
+        <div>
+          <label for="description-text">Write your story:</label>
+          <textarea id="description-text" name="description-text" rows="4" cols="50"></textarea>
+        </div>
+      </div>
+      <div>
+        <p>
+          <label for="image_url-input">Send a picture URL:</label>
+          <input type="text" id="image_url-input" name="image_url-input"><br><br>
+        </p>
+      </div>
+      <div>
+        <p> Rating:</p>
+        <div>
+          <span class="fa fa-star checked" data-num="1"></span>
+          <span class="fa fa-star" data-num="2"></span>
+          <span class="fa fa-star" data-num="3"></span>
+          <span class="fa fa-star" data-num="4"></span>
+          <span class="fa fa-star" data-num="5"></span>
+        </div>
+        <br />
+        <div>
+          <button class="button">Add your history!</button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+  <script src="/add/js"></script>
+</body>
+</html>

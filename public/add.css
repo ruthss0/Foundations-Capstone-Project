@@ -1,0 +1,61 @@
+
+.logo img {
+  padding: 8px;
+  width: 80px; 
+}
+
+.headerImg {
+  position: relative;
+  left:350px;
+}
+.nameLogo {
+  position: relative;
+  left:350px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.49);
+}
+label {
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 10px;
+}
+
+.checked {
+  color: rgb(221, 45, 54);
+}
+
+.travel-outside {
+  height: 800px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 25px solid #aed1e2;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #2658e2;; /* Green */
+  border: none;
+  color: rgb(245, 243, 243);
+  padding: 15px 20px;
+  font-size: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.49);
+  border-radius: 12px;
+}
+
+textarea {
+  height: 275px;
+  width: 450px;
+}
+
+.fa-star {
+  cursor: pointer;
+}
